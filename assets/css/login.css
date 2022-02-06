@@ -1,0 +1,70 @@
+.login {
+    background-color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 20px;
+    font-size: 1.05em;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: white !important;
+    background-color: #F094AE;
+    border: 1px solid #F094AE;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    color: #000;
+    margin: 30px auto;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 800px;
+}
+
+.modal-content .sign-container {
+    padding: 10%;
+    text-align: left;
+}
+
+.name-input {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: 'Times New Roman';
+    float: left;
+    margin: 4% 0;
+}
+
+.confirm,
+.pass-input {
+    width: 100%;
+    margin: 4% 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    float: left;
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+.login-btn {
+    border: 1px solid #F094AE;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background: #F094AE;
+    color: #000;
+    padding: 8px 16px;
+    margin: 32px 0;
+    width: 100%;
+}
+
+.login-btn:hover {
+    color: #000;
+    background-color: #ea5f87;
+    cursor: pointer;
+}

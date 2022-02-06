@@ -1,0 +1,216 @@
+.top {
+    padding: 16px;
+    color: #fff;
+}
+
+.left-sidebar .top {
+    height: 200px;
+    text-align: center;
+    padding: 16px;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    margin: 8px;
+    float: left;
+}
+
+.design-logo {
+    color: #ea5f87;
+}
+
+.down-table {
+    width: 100%;
+    ;
+}
+
+.left-sidebar {
+    width: 20%;
+    background-color: #F094AE;
+    color: #000;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: large;
+    border-bottom: 1px solid #ccc;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+
+.left-sidebar ul {
+    padding: 16px;
+    list-style: none;
+    float: left;
+}
+
+.left-sidebar ul li {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    list-style: none;
+    float: left;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.left-sidebar ul li a:hover {
+    color: #000;
+    padding-left: 20px;
+}
+
+.admin-content {
+    padding: 40px 80px 100px;
+    width: 80%;
+    bottom: 0px;
+    float: right;
+}
+
+.admin-content .page-tilte {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.btn-big {
+    border: 1px solid #F094AE;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background: #F094AE;
+    color: #000;
+    padding: 8px 16px;
+}
+
+.btn-big:hover {
+    color: #000;
+    background-color: #ea5f87;
+    cursor: pointer;
+}
+
+form div textarea .input-body-text {
+    padding: 12px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.about-content {
+    margin: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3
+}
+
+.edit {
+    color: green;
+}
+
+.delete {
+    color: red;
+}
+
+.edit:hover,
+.delete:hover,
+.pre-link:hover,
+.next-link:hover {
+    text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 16px;
+}
+
+.text-input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: inherit;
+}
+
+.confirm,
+.pass-input {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Times New Roman';
+}
+
+form div input,
+form div button {
+    margin: 12px 0px;
+}
+
+.i-big {
+    height: 150px;
+}
+
+.admin-manage {
+    display: none;
+}
+
+.pre-link,
+.next-link {
+    border: none;
+    max-width: 100em;
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ea5f87;
+}
+
+@media (max-width: 700px) {
+    .left-sidebar {
+        display: none;
+    }
+    .admin-content {
+        width: 100%;
+        min-height: 100%;
+        padding: 10px 8px 10px;
+        font-size: smaller;
+        margin-top: 10px;
+        left: 0;
+    }
+    .about-content {
+        font-size: small;
+        margin-top: 22px;
+    }
+    th,
+    tr {
+        font-size: smaller;
+    }
+    .text-input {
+        font-size: small;
+    }
+}
